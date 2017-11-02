@@ -31,17 +31,21 @@
 # #### Basic commands
 # We'll start with some basics. First, let's import a package called **pandas**. We import pandas and give it an alias 'pd'. Pandas is one of the more common python modules, and it enables you to work with your data as a DataFrame.
 
-# In[2]:
+# In[4]:
 
 # Import packages using the import command. 
 import pandas as pd
+import os
+
+# Chaning my working directory
+os.chdir('C://Users/dane.arnesen/Documents/Projects/pytutorial/')
 
 
 # One of the first things you'll want to do with any data science project is import some data. There are a bunch of ways to do this, but in this tutorial we will use the pandas package. 
 # 
 # For this tutorial, we will import the Iris dataset. Iris is a benchmark dataset in the data science world. It only has 150 rows and 6 columns, and so it is a good way to test out new code and/or algorithms. 
 
-# In[2]:
+# In[5]:
 
 # Use Pandas to import a csv file into a dataframe
 iris = pd.read_csv('data/iris.csv')
@@ -227,7 +231,9 @@ sns.distplot(versicolor)
 # **Next Steps**  
 # I hope you enjoyed this Python tutorial. Feel free to reach out with any questions that you may have. I encourage you to explore the online tutorials, as well as Stack Overflow. Chances are if you have a question, someone else has already asked it. Happy coding.
 
+# # Header
+
 # In[ ]:
 
-
+# comments
 
